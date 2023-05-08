@@ -13,30 +13,7 @@ public class JumpBehaviour : MonoBehaviour
     
     private void Update()
     {
-        /*if (!GameManager.isStart)
-        {
-            return;
-        }
-        RaycastHit2D isHit = Physics2D.Raycast(transform.position,Vector2.down,0.24f,layer);
-        
-        if (isHit.collider != null)
-        {
-            isGround = true;
-            animator.SetBool("isJump", true);
-        }
-        else
-        {
-            isGround = false;
-            animator.SetBool("isJump",false);
-        }
-
-        if (isGround && Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
-        }*/
-        
-        //--------------------
-        
+    
         if (!GameManager.isStart)
         {
             return;
